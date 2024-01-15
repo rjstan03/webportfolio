@@ -1,0 +1,142 @@
+* { 
+	font-family: "Helvetica Neue", sans-serif;;
+}
+
+.bg-black {
+	background-color: #000000;
+}
+
+.border-none {
+	border-width: 0;
+}
+
+.text-black {
+	color: black;
+}
+
+.resize-none {
+	resize: none;
+}
+
+.social-size {
+	width: 25px;
+}
+
+.w-img-30 {
+	width: 30px;
+}
+
+.w-img-300 {
+	width: 300px;
+}
+
+.carousel-text-bg {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+/*xs-sm*/
+@media (max-width: 576px) {
+	h2 u{
+		font-size: 1.2rem;
+	}
+	.card-body h5 {
+		font-size: 1.2rem;
+	}
+	.card-body h6  {
+		font-size: 1rem;
+	}
+}
+
+/*sm*/
+@media (min-width: 576px) {
+	.card-body h5 {
+		font-size: .9rem;
+	}
+	.card-body h6  {
+		font-size: .8rem;
+	}
+}
+
+/*xs-md*/
+@media (max-width: 768px) {
+	p {
+		font-size: 1rem;
+	}
+	h1 {
+		font-size: 1.6rem;
+	}
+	h2 {
+		font-size: 1.4rem;
+	}
+	h3 {
+		font-size: 1.3rem;
+	}
+	h4 {
+		font-size: 1.1rem;
+	}
+	#gradpic {
+		width: 200px;
+	}	
+}
+
+
+/*md*/
+@media
+(min-width: 768px) {
+	p {
+		font-size: 1.2rem;
+	}
+	.p-educ {
+		font-size: 1rem;
+	}
+
+	.p-project {
+		font-size: 0.9rem;
+	}
+	.card-body h5 {
+		font-size: 1rem;
+	}
+	.card-body h6  {
+		font-size: .9rem;
+	}
+	h4 {
+		font-size: 1.4rem;
+	}
+	.carousel-caption h6, .carousel-caption p {
+		font-size: .6rem;
+	}
+
+}
+
+/*lg*/
+@media (min-width: 992px) {
+	p {
+		font-size: 1.5rem;
+	}
+	.p-educ {
+		font-size: 1.2rem;
+	}
+
+	.card-body h5 {
+		font-size: 1.5rem;
+	}
+
+	.card-body h6  {
+		font-size: 1.2rem;
+	}
+	.carousel-caption h6, .carousel-caption p {
+		font-size: 1.2rem;
+	}
+}
+
+/*xl*/
+@media (min-width: 1200px) {
+	.p-project {
+		font-size: 1.1rem;
+	}
+}
+
+/*xxl*/
+@media (min-width: 1400px) {
+
+}
